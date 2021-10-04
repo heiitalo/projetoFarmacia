@@ -1,4 +1,4 @@
-package br.com.generation.farmacia.model;
+package br.com.generation.farmacia.Model;
 
 import java.util.List;
 

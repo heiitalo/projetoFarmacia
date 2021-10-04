@@ -1,11 +1,11 @@
-package br.com.generation.farmacia.CategoriaRepository;
+package br.com.generation.farmacia.Repositories;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import br.com.generation.farmacia.model.Categoria;
+import br.com.generation.farmacia.Model.Categoria;
 
 @Repository
 public interface CategoriaRepository extends JpaRepository<Categoria, Long> {

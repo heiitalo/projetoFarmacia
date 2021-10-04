@@ -1,4 +1,4 @@
-package br.com.generation.farmacia.CategoriaController;
+package br.com.generation.farmacia.Controllers;
 
 import java.util.List;
 
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.generation.farmacia.CategoriaRepository.CategoriaRepository;
-import br.com.generation.farmacia.model.Categoria;
+import br.com.generation.farmacia.Model.Categoria;
+import br.com.generation.farmacia.Repositories.CategoriaRepository;
 
 @RestController
 @RequestMapping("/categoria")
